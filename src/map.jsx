@@ -185,7 +185,7 @@ export default class Map extends Component {
           <Circle
             data = {dataCircle}
             geoPath= {geoPath}
-            circleClass= {circleClass}
+            circleClass= {d.properties.class || circleClass}
             r= {r}
             x= {position[0]}
             y= {position[1]}
@@ -204,7 +204,7 @@ export default class Map extends Component {
               key = {i}
               data = {d}
               geoPath= {geoPath}
-              circleClass= {circleClass}
+              circleClass= {d.properties.class || circleClass}
               r= {r}
               x= {position[0]}
               y= {position[1]}
