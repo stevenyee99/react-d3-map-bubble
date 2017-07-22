@@ -1,7 +1,7 @@
 {
-  "name": "react-d3-map-bubble",
+  "name": "@steveny/react-d3-map-bubble",
   "version": "0.6.0",
-  "description": "react-d3 map bubble component",
+  "description": "Stevens fork of react-d3 map bubble component",
   "main": "./lib/index.js",
   "scripts": {
     "build": "rm -rf ./lib && babel -w --stage 0 src --out-dir lib"
